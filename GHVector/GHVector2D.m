@@ -15,8 +15,8 @@
     self = [super init];
     if (self)
     {
-        _x = initialPoint.x - terminalPoint.x;
-        _y = initialPoint.y - terminalPoint.y;
+        _x = terminalPoint.x - initialPoint.x;
+        _y = terminalPoint.y - initialPoint.y;
     }
     return self;
 }
@@ -96,7 +96,7 @@
 
 - (CGFloat)dotProductWithVector:(GHVector2D *)vector
 {
-    return (self.x * vector.x) + (self.y + vector.y);
+    return (self.x * vector.x) + (self.y * vector.y);
 }
 
 - (CGFloat)angleBetweenVector:(GHVector2D *)vector
