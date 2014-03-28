@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GHVector.xcodeproj">
+      location = "self:GHVector2D.xcodeproj">
    </FileRef>
 </Workspace>

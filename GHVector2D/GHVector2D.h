@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 My name is kuma. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface GHVector2D : NSObject<NSCopying>
 
