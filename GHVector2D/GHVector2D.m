@@ -99,6 +99,12 @@
     return (self.x * vector.x) + (self.y * vector.y);
 }
 
+- (CGFloat)crossProductWithVector:(GHVector2D *)vector
+{
+    return (self.x * vector.y) - (self.y * vector.x);
+}
+
+
 - (CGFloat)angleBetweenVector:(GHVector2D *)vector
 {
     CGFloat dot = [self dotProductWithVector:vector];
